@@ -25,10 +25,7 @@ SECRET_KEY = 'y*gw=y97$v$x%n#^q@*m)o@b_)^+0d18v-t2k+kt*9oovere7$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0',
-                 '172.17.0.3',
-                 '172.17.0.2',
-                 '127.0.0.1',                
+ALLOWED_HOSTS = ['*',                
 ]
 
 
